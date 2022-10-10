@@ -1,0 +1,237 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@Layer base {
+  body {
+     @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100
+  }
+ 
+  @font-face {
+    font-family: 'Bungee';
+    src: url('/public/fonts/Bungee-Shade.woff2') format('woff2');
+    font-weight:400;
+    font-display:swap;
+    font-style:normal
+  }
+  @font-face {
+    font-family: 'DeepShadow';
+    src: url('/public/fonts/Deep-Shadow.woff2') format('woff2');
+    font-weight:400;
+    font-display:swap;
+    font-style:normal
+  }
+  @font-face {
+    font-family: 'DeepShadowUnder';
+    src: url('/public/fonts/Deep-Shadow-Under.woff2') format('woff2');
+    font-weight:400;
+    font-display:swap;
+    font-style:normal
+  }
+  @font-face {
+    font-family: 'JacquesFrancoisShadow';
+    src: url('/public/fonts/Jacques-Francois-Shadow.woff2') format('woff2');
+    font-weight:400;
+    font-display:swap;
+    font-style:normal
+  }
+  @font-face {
+    font-family: 'Roboto';
+    src: url('/public/fonts/Roboto-Regular.woff2') format('woff2');
+    font-weight:400;
+    font-display:swap;
+    font-style:normal
+  }
+  @font-face {
+    font-family: 'CocoSharpHeavy';
+    src: url('/public/fonts/Coco-Sharp-Heavy-trial.woff2') format('woff2');
+    font-weight:400;
+    font-display:swap;
+    font-style:normal
+  }
+
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.mtsection{
+  margin-top: 0rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar {
+  z-index: 10;
+  background-color: #FA087A;
+  border-bottom: 1px solid rgb(0, 0, 0);
+  transition: top 0.3s;
+}
+
+.navbar--hidden {
+  transform: translateY(calc(-1 * var(--nav-height)));
+  box-shadow: none
+}
+
+
+@media (max-width: 992px) {
+  .navbar {
+    background-color: #FA087A;
+    transition: top 0.3s;
+  }
+  .navbar-toggler {
+    background-color: rgb(255, 255, 255);
+  }
+}
+
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: 0.3rem;
+    border-bottom-right-radius: 0.3rem;
+  }
+}
+
+/*Login Page Stylng*/
+.ftco-section {
+  padding: 7em 0;
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+ 
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.cursor-pointer {
+  cursor: pointer;
+}
+.btn-active {
+  border-radius: 30px;
+  background-color: #000000;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  width: 80px;
+}
+.btn-nonactive{
+  border: 2px solid #000000;
+  background: transparent;
+  color: #000000;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 14px;
+  width: 80px;
+}
+
+/* 
+  @media screen and (prefers-color-scheme: light) {
+    .btn:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid transparent;
+      outline: none !important;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+    }
+  } */
+
+
+.btn:hover {
+  background-color: #000000;
+  color: white;
+  border: 1px solid transparent;
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.btn-active:focus {
+  outline:none;
+  box-shadow: none;
+}
+
+

@@ -1,0 +1,179 @@
+.features-btn {
+  border-radius: 10px;
+  background-color: #dc3545;
+  color: white;
+  width: 110px;
+  height: 40px;
+  border: 1px solid transparent;
+}
+@media (max-width: 692px) {
+  .featuresBtn {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav {
+    gap: 0rem;
+  }
+}
+.notion-link {
+  font-size: 20px;
+  color: #434343;
+}
+.notion-link:hover {
+  color: #000000;
+}
+
+.nav-item {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.active{
+  color: #FA087A;
+  font-size: 18px;
+}
+.non-active{
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+.non-active:hover{
+  color: #FA087A;
+  text-decoration: underline;
+}
+
+#navbarDropdownMenuLink {
+  color: rgb(0, 0, 0);
+}
+
+.nav-item:hover {
+  color: #B83280;
+  text-decoration: underline;
+}
+
+#navbarDropdownMenuLink:hover {
+  color: #B83280;
+}
+.dropdown-menu {
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
+.heading-section {
+  font-size: 28px;
+  color: #000;
+}
+.text-wrap {
+  white-space: normal !important;
+  background-color: #dc3545;
+  color: white;
+  width: 100%;
+}
+
+.navbarBrand {
+  cursor: pointer;
+}
+
+@media (max-width: 992px) {
+  .navbarBrand {
+    display: flex;
+  }
+  .nav-item {
+    color: rgb(0, 0, 0);
+  }
+  #navbarDropdownMenuLink {
+    color: rgb(0, 0, 0);
+  }
+}
+
+.flexbox {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentSection {
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+  justify-content: center;
+}
+.salesSection {
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  text-align: center;
+  justify-content: center;
+}
+
+.embbedStyle {
+  border: 2px solid #000000;
+}
+
+.activeHolders {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+.contentSection h1 {
+  font-size: 34px;
+  line-height: 3rem;
+  color: #000000;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.contentSection h6 {
+  text-align: justify;
+  font-size: 17px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+.salesSection h1 {
+  font-size: 34px;
+  line-height: 3rem;
+  color: #000000;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+.salesSection h6 {
+  text-align: justify;
+  font-size: 17px;
+  color: #000000;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+}
+.title{
+  color: #000000;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+}
+
+.abc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.social-media p a {
+  border: 1px solid #e6e6e6;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
+}
+.social-media p a span {
+  color: #4d4d4d;
+}
+.social-media p a:hover {
+  background: #000000;
+  border-color: #000000;
+}
+.homelinks a{
+  color: #000000;
+}
+.social-media p a:hover span {
+  color: #fff;
+}
