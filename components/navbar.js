@@ -20,7 +20,7 @@ const Navbar = () => {
   const renderThemeChange = () => {
     if (!mounted) return null
     const currentTheme = theme === 'system' ? systemTheme : theme
-    if (currentTheme === 'dark') {
+    if (currentTheme === 'light') {
       return (
         <SunIcon
           className="w-7 h-7"
@@ -33,7 +33,7 @@ const Navbar = () => {
         <MoonIcon
           className="w-7 h-7"
           role="button"
-          onClick={() => setTheme('dark')}
+          onClick={() => setTheme('light')}
         />
       )
     }
