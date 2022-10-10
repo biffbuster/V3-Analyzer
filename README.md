@@ -4,7 +4,7 @@
 
 Pool Analyzer for Uniswap V3 on Ethereum. Track pool and LP stats by entering the pool address of your choice and into the search query.
 
-*Data queried from **Dune Analytics***
+*Data queried from **[Dune Analytics](https://dune.com/)***
 
 ____________
 
