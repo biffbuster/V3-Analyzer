@@ -1,4 +1,4 @@
-<!-- <img src="https://github.com/biffbuster/3L-Analytics-Dashboard/blob/main/assets/images/3l_logo.png" width="325" height="120"> -->
+<img src="https://github.com/biffbuster/V3-Analyzer/blob/main/assets/images/PA_logo.png" width="325" height="120">
 
 # V3 Pool Analyzer
 
@@ -55,4 +55,4 @@ _____________
 **Image Sources:**
 
 
-*Dashboard by @biff_buster*
+*Dashboard by [@biff_buster](https://twitter.com/biff_buster)*
