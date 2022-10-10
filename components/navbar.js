@@ -1,21 +1,21 @@
-import React, { useState, useEffect } from 'react'
+// import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Button from '../components/Button'
 import Logo from '../assets/images/pool_analyzer_2.svg'
-import { useTheme } from 'next-themes'
-import { MoonIcon, SunIcon } from '@heroicons/react/solid'
+// import { useTheme } from 'next-themes'
+// import { MoonIcon, SunIcon } from '@heroicons/react/solid'
 
 const Navbar = () => {
   const router = useRouter()
   const currentRoute = router.pathname
   // const { systemTheme, theme, setTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
+  // const [mounted, setMounted] = useState(false)
 
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  // useEffect(() => {
+  //   setMounted(true)
+  // }, [])
 
   // const renderThemeChange = () => {
   //   if (!mounted) return null

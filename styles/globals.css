@@ -208,7 +208,7 @@ a {
   width: 80px;
 }
 
-/* 
+
   @media screen and (prefers-color-scheme: light) {
     .btn:hover {
       background-color: white;
@@ -218,7 +218,7 @@ a {
       -webkit-box-shadow: none;
       box-shadow: none;
     }
-  } */
+  }
 
 
 .btn:hover {
