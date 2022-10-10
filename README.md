@@ -2,7 +2,7 @@
 
 # V3 Pool Analyzer
 
-Pool Analyzer for Uniswap V3 on Ethereum. Track pool and LP stats by entering the pool address of your choice and into the search query.
+Pool Analyzer for Uniswap V3 on Ethereum. Track pool and LP stats by entering the pool address of your choice and into the search query. 
 
 *Data queried from **[Dune Analytics](https://dune.com/)***
 
@@ -13,7 +13,8 @@ ____________
 
 This is a [NextJS](https://nextjs.org/) project bootstrapped with `create-next-app`
 
-You can view a live demo over at: 
+View Dune Dashboard at: [V3 Pool Analyzer](https://dune.com/BiffBuster/pools-3)
+View a live demo over at: 
 
 To get this frontend running locally:
 
