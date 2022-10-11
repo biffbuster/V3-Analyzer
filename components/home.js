@@ -13,7 +13,7 @@ const Banner = () => {
       </div>
       <div className="container">
         <div className="contentSection row">
-          <div className="col-md-5 md-">
+          <div className="col-md-5">
             <div>
               <br></br>
               <br></br>

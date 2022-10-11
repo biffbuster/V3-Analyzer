@@ -14,7 +14,16 @@ const Holders = () => {
         </div>
         <br></br>
         <h4 className="text-2xl dark:text-white font-semibold text-center">
-        To use this tool, simply enter the pool address, start time and end time of your choosing. After a few minutes, the pool info will be displayed below.
+        To use this tool, simply enter the pool address, start time and end time of your choosing. After a few minutes, the pool info will be displayed below. Until the search parameter is added, feel free to view the Dune dashboard --
+        <span className="font-CocoSharpHeavy w-full dark:text-white">
+                  <a
+                    href="https://dune.com/BiffBuster/v3-pool-analyzer"
+                    className="text-[25px]"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >HERE.
+                  </a>
+                </span>
         </h4>
         <br></br>
       </div>
