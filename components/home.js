@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css';
 
 const Banner = () => {
   return (
-    <div className="dark:bg-black">
+    <div className="dark:bg-white">
       <div className="mt-1">
       </div>
       <div className="container">
