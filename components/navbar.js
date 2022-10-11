@@ -3,48 +3,48 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import Button from '../components/Button'
-import Logo from '../assets/images/pool_analyzer_2.svg'
-// import { useTheme } from 'next-themes'
-// import { MoonIcon, SunIcon } from '@heroicons/react/solid'
+import Logo from '../assets/images/pool_analyzer_2.png'
+import { useTheme } from 'next-themes'
+import { MoonIcon, SunIcon } from '@heroicons/react/solid'
 
 const Navbar = () => {
   const router = useRouter()
   const currentRoute = router.pathname
-  // const { systemTheme, theme, setTheme } = useTheme()
-  // const [mounted, setMounted] = useState(false)
+  const { systemTheme, theme, setTheme } = useTheme()
+  const [mounted, setMounted] = useState(false)
 
-  // useEffect(() => {
-  //   setMounted(true)
-  // }, [])
+  useEffect(() => {
+    setMounted(true)
+  }, [])
 
-  // const renderThemeChange = () => {
-  //   if (!mounted) return null
-  //   const currentTheme = theme === 'system' ? systemTheme : theme
-  //   if (currentTheme === 'light') {
-  //     return (
-  //       <SunIcon
-  //         className="w-7 h-7"
-  //         role="button"
-  //         onClick={() => setTheme('light')}
-  //       />
-  //     )
-  //   } else {
-  //     return (
-  //       <MoonIcon
-  //         className="w-7 h-7"
-  //         role="button"
-  //         onClick={() => setTheme('light')}
-  //       />
-  //     )
-  //   }
-  // }
+  const renderThemeChange = () => {
+    if (!mounted) return null
+    const currentTheme = theme === 'system' ? systemTheme : theme
+    if (currentTheme === 'dark') {
+      return (
+        <SunIcon
+          className="w-7 h-7"
+          role="button"
+          onClick={() => setTheme('light')}
+        />
+      )
+    } else {
+      return (
+        <MoonIcon
+          className="w-7 h-7"
+          role="button"
+          onClick={() => setTheme('dark')}
+        />
+      )
+    }
+  }
 
   return (
     <nav className=" w-100 p-1 px-2  navbar dark:text-white dark:bg-black navbar-expand-lg navbar-light position-fixed top-0 start-0">
       <div className="container-fluid">
         <Link href="/" passHref>
           <div className="navbarBrand">
-            <Image src={Logo} alt="Brand" width={135} height={70} />
+            <Image src={Logo} alt="Brand" width={150} height={70} />
           </div>
         </Link>
         <button
@@ -83,7 +83,7 @@ const Navbar = () => {
                    dark:py-2
                    dark:text-[14px]
                    dark:w-[80px]
-                   dark:rounded-[20px]
+                   dark:rounded-[30px]
                    dark:hover:bg-black
                    dark:border-[1px]
 
@@ -116,7 +116,7 @@ const Navbar = () => {
                    dark:py-2
                    dark:text-[14px]
                    dark:w-[80px]
-                   dark:rounded-[20px]
+                   dark:rounded-[30px]
                    dark:hover:bg-black
                    dark:border-[1px]
                    dark:hover:text-white"
@@ -147,7 +147,7 @@ const Navbar = () => {
                    dark:py-2
                    dark:text-[14px]
                    dark:w-[80px]
-                   dark:rounded-[20px]
+                   dark:rounded-[30px]
                    dark:hover:bg-black
                    dark:border-[1px]
                    dark:hover:text-white"
@@ -185,6 +185,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      {renderThemeChange()}
     </nav>
   )
 }

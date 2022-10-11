@@ -9,15 +9,17 @@ const footer = () => {
     <footer className="p-4 dark:bg-gray-800 bg-gray-100 shadow-md rounded-md md:px-6 md:py-2 ">
       <div className="flex flex-col md:flex-row items-center justify-between ">
         <div className="flex flex-[0.34] w-full  items-center justify-center">
-          <div className="w-36 h-36 -my-6 flex items-center ">
+          <div className="w-40 h-36 -my-4 flex items-center ">
             <Image src={Logo} alt="3landers" width={50} height={50} />
           </div>
         </div>
         <div className="flex-[0.33] w-full flex items-center justify-center">
-          <p className="font-semibold dark:text-white items-center">
-          Made by&nbsp; <span className="my-8 dark:text-white uppercase font-deepShadow">
+        <h5 className="text-l dark:text-white font-semibold text-center">
+        This is a community made dashboard, information may not be completely accurate. Not affiliated with Uniswap. <br></br>
+        <br></br> 
+        Made by&nbsp; <span className="my-8 dark:text-white uppercase font-deepShadow">
             <a href="https://twitter.com/biff_buster" className="text-[9px]" target="_blank" rel="noopener noreferrer"> biff_buster </a>  </span> 
-          </p>
+        </h5>
         </div>
         <div className="flex-[0.33]   w-full flex items-center justify-center">
           <ul className="flex dark:text-white flex-wrap items-center  text-md text-gray-500 sm:mb-0 ">

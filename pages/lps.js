@@ -14,7 +14,10 @@ const Sales = () => {
             <h4 className="text-xl dark:text-white font-semibold box-shadow-2xl md:my-9 light:bg-gray-50 rounded-lg px-2 pb-2">
               View liquidity provider (LP) stats and trends by selecting a pool address, start time and end time (WIP).</h4>
             <h3 className="text-l dark:text-white font-semibold box-shadow-2xl md:my-9 light:bg-gray-50 rounded-lg px-2 pb-2">
-              Liquidity providers are anyone who deposits an equivalent value of each underlying assets to be used for trading in a pool in return for pool tokens and trading fees.
+              Liquidity providers are anyone who deposits an equivalent value of each underlying assets to be used for trading in a pool for LP tokens and trading fees in return. Ticks are the the range between liquidity positions and price spacing. 
+              Learn more about 
+              <a href="https://docs.uniswap.org/protocol/concepts/V3-overview/concentrated-liquidity#ticks"
+                 className="text-[18px]"> Ticks</a>
               </h3>
           </div>
         </div>

@@ -8,7 +8,7 @@ import styles from '../styles/Home.module.css';
 
 const Banner = () => {
   return (
-    <div className="dark:bg-white">
+    <div className="dark:bg-black">
       <div className="mt-1">
       </div>
       <div className="container">
@@ -53,7 +53,7 @@ const Banner = () => {
         <br></br>
         <br></br>
 
-        <div className="container mb-5 px-5">
+        {/* <div className="container mb-5 px-5">
           <div className="row justify-content-center">
             <div className="row mt-3 text-center text-xl">
               <div className="col-md-4 ">
@@ -90,23 +90,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-        </div>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
-        <h4 className="text-2xl dark:text-white font-semibold text-center">
-        This is a community made dashboard, information may not be completely accurate. 
-        <br></br>
-        Not affiliated with Uniswap.
-        </h4>
-        <br></br>
-        <br></br>
-        <br></br>
-        <br></br>
+        </div> */}
       </div>
     </div>
   )

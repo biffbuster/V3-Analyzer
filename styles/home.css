@@ -30,7 +30,7 @@
   font-size: 18px;
 }
 .active{
-  color: #FA087A;
+  color: #B83280;
   font-size: 18px;
 }
 .non-active{
@@ -38,7 +38,7 @@
   font-size: 18px;
 }
 .non-active:hover{
-  color: #FA087A;
+  color: #B83280;
   text-decoration: underline;
 }
 

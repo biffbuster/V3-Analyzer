@@ -5,14 +5,13 @@ import styles from '../styles/Home.module.css'
 
 const Holders = () => {
   return (
-    <div className="container mb-5 -mt-0">
+    <div className="container mb-5 -mt-3">
       <div className="col-md-8 mx-auto contentSection row">
         <div className="col-md-5 mt-4 mx-auto">
           <div>
             <br></br>
           </div>
         </div>
-        <br></br>
         <br></br>
         <h4 className="text-2xl dark:text-white font-semibold text-center">
         To use this tool, simply enter the pool address, start time and end time of your choosing. After a few minutes, the pool info will be displayed below.
